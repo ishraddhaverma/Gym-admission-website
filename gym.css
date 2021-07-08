@@ -1,0 +1,115 @@
+body{
+    background-image: url("imgs/gymgirl.jpg");
+    color:white;
+}
+
+.left{
+    display: inline-block;
+    border:2px; 
+    position:absolute;
+    left:34px;
+    top:20px;
+}
+
+
+
+.right{
+    position:absolute;
+    right:34px;
+    top:26px;
+    display:inline-block;
+    /* border:2px solid; */
+    }
+    
+
+.center{
+    
+    display:block;
+    width:58%;
+    margin:32px auto;
+    /* border:2px solid wheat; */
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.navbar li a{
+    font-family: 'Cinzel', serif;
+    
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.left img{
+    height: 100px;
+    border-radius: 100%;
+    border:5px solid black;
+}
+#namegym{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 12px;
+    background-color: transparent;
+    color: white;
+    margin-right:12px;
+    padding: 3px 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover{
+    color:crimson;
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-left: 34px;
+    width:33%;
+    height: 45%;
+    display:inline-block;
+}
+
+.center a:hover{
+    color:crimson;
+}
+
+
+
+
+
+
+h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    padding-left: 13px;
+}
+.formgroup input{
+    text-align: center;
+    width:280px;
+    margin-left:60px;
+    margin-bottom: 10px;
+    background-color:white ;
+    color:black;
+    border-radius: 4px;
+    padding: 4px;
+    display: block;
+
+}
+.container button{
+    display: block;
+    width:292px;
+    border-radius: 4px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 4px;
+}
